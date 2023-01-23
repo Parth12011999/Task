@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main
+        {
+            height: 500px;
+            width: 100%;
+            background-color: brown;
+            counter-reset: x;
+        }
+        .main p
+        {
+            font-size: 12px;
+            color: yellow;
+        }
+        .main p::after
+        {
+            counter-increment: x;
+            content: ">-" counter(x);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At sunt fugiat officiis praesentium repellendus. Laboriosam, modi similique deserunt perspiciatis numquam sunt molestiae obcaecati beatae necessitatibus. Qui nihil perferendis quis deserunt!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore et doloribus in nihil tempora enim cumque incidunt quos voluptas commodi repellat voluptatum distinctio, quidem, ut maxime? Sapiente blanditiis maxime optio.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum autem explicabo odit laboriosam tempore esse voluptatem, fugiat incidunt quibusdam dolore inventore doloribus architecto sapiente hic aliquid ducimus voluptatibus libero aspernatur!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit dignissimos nam a facere, aliquid eligendi saepe, numquam repudiandae fugit quibusdam nostrum, similique maiores. Deleniti harum debitis sequi praesentium totam ad?</p>
+    </div>
+</body>
+</html>

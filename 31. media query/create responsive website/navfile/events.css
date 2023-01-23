@@ -1,0 +1,239 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: black;
+}
+.window
+{
+    margin: 20px;
+    background-color: black;
+    border-radius: 5px;
+}
+.navigation
+{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+button
+{
+    /* color: white; */
+    border: none;
+    height: 40px;
+    background: transparent;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: monospace;
+    opacity: 1;
+    text-align: left;
+    padding-left: 10px;
+
+}
+button i
+{
+    color: white;
+    line-height: 40px;
+}
+.main
+{
+    height: 40px;
+    list-style: none;
+    width: 70%;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: monospace;
+    justify-content: right;
+    text-align: right;
+    padding-right: 20px;
+    display: flex;
+}
+.mainlist
+{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: monospace;
+    padding: 10px 0;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.8;
+}
+.mainlist a
+{
+    opacity: 1;
+    text-decoration: none;
+    color: white;
+}
+.main:hover .mainlist
+{
+    color: goldenrod;
+}
+h1
+{
+    margin: 20px 0;
+    color: aliceblue;
+    text-align: center;
+}
+.events
+{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img1
+{
+    padding: 10px;
+    height: 250px;
+    width: 30%;
+    caption-side: top;
+    text-align: center;
+    color: aliceblue;
+}
+.img2
+{
+    padding: 10px;
+    height: 250px;
+    width: 30%;
+    caption-side: top;
+    text-align: center;
+    color: aliceblue;
+}
+.img3
+{
+    padding: 10px;
+    height: 250px;
+    width: 30%;  
+    caption-side: top;
+    text-align: center;
+    color: aliceblue;
+
+}
+.img4
+{
+    padding: 10px;
+    height: 250px;
+    width: 30%;
+    caption-side: top;
+    text-align: center;
+    color: aliceblue;
+}
+.img5
+{
+    padding: 10px;
+    height: 250px;
+    width: 30%;
+    caption-side: top;
+    text-align: center;
+    color: aliceblue;
+}
+img
+{
+    height: 100%;
+    width: 100%;
+}
+.contactus
+{
+margin-top: 10px;
+padding: 20px 30px;
+height: 80px;
+width: 100%;
+display: flex;
+/* background-color: black; */
+}
+#heading4
+{
+height: 80px;
+width: 100%;
+font-size: 40px;
+line-height: 80px;
+color: aliceblue;
+/* background-color: black; */
+}
+.git
+{
+margin-top: 10px;
+padding: 20px 30px;
+height: 300px;
+width: 100%;
+display: flex;
+}
+.details
+{
+height: 200px;
+width: 50%;
+color: aliceblue;
+
+}
+.details address
+{
+padding: 10px 20px;
+font-size: 18px;
+font-weight: bold;
+}
+.details span
+{
+padding: 5px 20px;
+font-size: 18px;
+font-weight: bold;
+}
+.input
+{
+height: 200px;
+width: 50%;
+display: block;
+}
+.i1
+{
+padding: 10px 10px;
+}
+.i1 input
+{
+font-size: 18px;
+height: 30px;
+width: 60%;  
+text-align: left;
+padding-left: 15px;
+}
+.i2
+{
+padding: 10px 20px;
+}
+.i2 input
+{
+font-size: 18px;
+background-color: red;
+opacity: 0.8;
+border: 1px solid red;
+height: 40px;
+width: 15%;
+border-radius: 3px;
+color: white;
+}
+.i2 input:hover
+{
+background-color: red;
+opacity: 1;
+}
+
+/* footer */
+.footer
+{
+height: 40px;
+width: 100%;
+font-size: 18px;
+background-color: gray;
+color: black;
+font-weight: bold;
+text-align: center;
+line-height: 40px;
+}

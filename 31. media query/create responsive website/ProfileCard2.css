@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #222;
+    place-items: center;
+    font-family: monospace;
+    color: #b3afbf;
+    padding: 200px 0 200px 0;
+}
+
+.card
+{
+    height: 500px;
+    width: 350px;
+    padding: 15px;
+    background-color: #222;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 15px 15px 20px;
+}
+
+.cover
+{
+    height: 200px;
+    position: relative;
+    background-image: url(cover.jpg);
+    border-radius: 8px 8px 0 0;
+    background-size: cover;
+}
+
+.profile
+{
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #222;
+    background-color: #222;
+    padding: 5px;
+    height: 100px;
+    width: 30%;
+    bottom: -50px;
+    left: 15px;
+}
+.profilename
+{
+    color: #b3afbf;
+    font-size: 25px;
+    padding: 25px 0 0 120px;
+}
+.about
+{
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 2;
+    font-weight: bold;
+}
+.btn
+{
+    margin: 30px 15px;
+    background-color: #222;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 1px solid #7ce3ff;
+    color: #7ce3ff;
+    font-weight: bold;
+
+}
+.btn:hover
+{
+    color: #222;
+    background-color: #7ce3ff;
+}
+.icons
+{
+    margin: 0 auto 10px;
+    gap: 15px;
+    background-color: black;
+    border-radius: 0 0 8px 8px;
+}
+.icons i
+{
+    font-size: 23px;
+    padding: 5px;
+}
+.icons i:hover
+{
+    color: #7ce3ff;
+}

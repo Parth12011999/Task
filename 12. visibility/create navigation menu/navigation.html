@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *
+        {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .nav
+        {
+            height: 80px;
+            width: 100%;
+            background-color: aqua;
+            border-radius: 5px;
+
+        }
+        .main
+        {
+            list-style: none;
+            display: flex;
+        }
+        .mainlist
+        {
+            font-size: 20px;
+            color: black;
+            padding: 20px;
+
+        }
+        .sub
+        {
+            list-style: none;
+            padding: 0%;
+            opacity: 1;
+            visibility: hidden;
+        }
+        .sublist
+        {
+            font-size: 15px;
+            color: white; 
+            padding: 5px; 
+            background-color: black;
+            opacity: 0.5;
+
+        }
+        .mainlist:hover .sub .sublist
+        {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul class="main">
+            <li class="mainlist">Home
+                <ul class="sub">
+                    <li class="sublist">page1</li>
+                    <li class="sublist">page1</li>
+                    <li class="sublist">page1</li>
+                </ul>
+            </li>
+            <li class="mainlist">Product
+                <ul class="sub">
+                    <li class="sublist">page1</li>
+                    <li class="sublist">page1</li>
+                    <li class="sublist">page1</li>
+                </ul>
+            </li>
+            <li class="mainlist">Service
+                <ul class="sub">
+                    <li class="sublist">page1</li>
+                    <li class="sublist">page1</li>
+                    <li class="sublist">page1</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

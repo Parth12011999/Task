@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <style>
+        @import url(css/Testimonials/testimonials.css);
+        @import url(css/Testimonials/Testimonialmobile.css);
+        @import url(css/Testimonials/Testimonialipad.css);
+        @import url(css/Testimonials/Testimoniallaptop.css);
+    </style>
+</head>
+<body>
+    <div class="window">    
+        <!-- header -->
+        <div class="header">
+            <div class="name">
+                <button onclick="history.back(-1)" id="n1"><i class="fa fa-arrow-left"></i></button>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html"> Home <div class="line"></div> </a></li>
+                    <li><a href="about.html"> About <div class="line"></div> </a></li>
+                    <li><a href="portfolio.html">Portfolio <div class="line"></div> </a></li>
+                    <li><a href="">Testimonials <div class="line1"></div> </a></li>
+                    <li><a href="Contact.html">Contact <div class="line"></div> </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="slider">
+            <div>
+                <img src="assets/parth.png" alt="" id="s1">
+                <p id="s2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fuga dignissimos ullam quia assumenda blanditiis. Illo reprehenderit est harum nulla necessitatibus voluptatem libero unde incidunt, nesciunt culpa, cupiditate voluptatibus quasi?</p>
+                <span id="s3">Parth Shinde</span>
+                <br>
+                <span id="s4">Front End Developer</span>
+            </div>
+            <div>
+                <img src="assets/bakingoodcss.jpg" alt="" id="s1">
+                <p id="s2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fuga dignissimos ullam quia assumenda blanditiis. Illo reprehenderit est harum nulla necessitatibus voluptatem libero unde incidunt, nesciunt culpa, cupiditate voluptatibus quasi?</p>
+                <span id="s3">Parth Shinde</span>
+                <br>
+                <span id="s4">Biomedical</span>
+            </div>
+            <div>
+                <img src="assets/amazon-removebg-preview.png" alt="" id="s1">
+                <p id="s2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fuga dignissimos ullam quia assumenda blanditiis. Illo reprehenderit est harum nulla necessitatibus voluptatem libero unde incidunt, nesciunt culpa, cupiditate voluptatibus quasi?</p>
+                <span id="s3">Parth Shinde</span>
+                <br>
+                <span id="s4">Professor</span>
+            </div>
+        </div>
+                <!-- connect -->
+    <div class="footer">
+        <div class="connect">
+            <p>Want to work with me:</p>  
+            <button class="btn3"><a href="/Profile Card/ProfileCard2.html">My linkedIn</a></button>
+        </div>
+        <div class="icons">
+            <a href=""><i class="fa fa-twitter" id="twiiter"></i></a>
+            <a href=""><i class="fa fa-whatsapp" id="whatsapp"></i></a>
+            <a href=""><i class="fa fa-facebook" id="fb"></i></a>
+            <a href=""><i class="fa fa-linkedin-square" id="linkin"></i></a>
+        </div>
+        </div> 
+</div>
+<script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
+</body>
+</html>
