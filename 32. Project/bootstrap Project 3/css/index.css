@@ -1,0 +1,181 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.container-fluid
+{
+    padding-left: 0%;
+    padding-right: 0%;
+    margin: 0%;
+}
+
+.navbar,.navbar-brand
+{
+    flex-wrap: nowrap;
+    margin: 0%;
+}
+.navbar-brand,.navbar-collapse,.navbar
+{
+    padding-right: 0%;
+    padding-left: 0%;
+    margin: 0%;
+}
+.nav-link
+{
+    padding-left: 0px;
+    padding-right: 0px; 
+    margin: 0%;
+}
+.animate a
+{
+    font-size: 14px;
+    color: black;
+    position: relative;
+}
+.animate a::after
+{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    bottom: 5px;
+    left: 0%;
+    transition: 0.8s;
+}
+
+.animate a:hover::after
+{
+    width: 100%;
+}
+.row
+{
+    width: 100%;
+    margin: 0%;
+}
+.offcanvas-navbar
+{
+    display: block;
+}
+.btn-Edit
+{
+    background-color: transparent;
+    border: 1px solid goldenrod;
+    border-left: none;
+    border-right: none;
+    color: goldenrod;
+}
+.btn-Edit:hover
+{
+    background-color: goldenrod;
+    color: white;
+}
+.poster
+{
+    height: 100vh;
+    background-image: url(https://thewildretreat.com/wp-content/uploads/2021/09/r-home-parallex.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.poster-text
+{
+    position: absolute;
+    background-color: transparent;
+}
+.footer ul
+{
+    padding: 15px 0;
+    font-family: "Cormorant Garamond", Sans-serif;
+}
+.footer ul li
+{
+    font-family: 'Gothic A1', sans-serif;
+    list-style-type: none;
+    padding: 10px 0;
+
+}
+.footer ul span
+{
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif; 
+    font-size: 22px;
+}
+.footer ul li a
+{
+    text-decoration: none;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 14px;
+    color: white;
+    filter: contrast(7.55);
+}
+.footer ul li a:hover
+{
+    color: goldenrod;
+}
+.btn-Edit1
+{
+    background-color: white;
+    color: black;
+}
+.btn-Edit1:hover
+{
+    color: goldenrod;
+}
+
+.card:hover
+{
+    animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+.gallary img:hover
+{
+    animation: scale-up 1s both;
+
+}
+.spacing
+  {
+      padding: 50px 15%;
+  }
+  
+  .spacing2
+  {
+      padding: 30px 15%;
+  }
+  
+  .heading
+  {
+      font-size: 30px;
+      padding: 10px 50px;
+      text-align: center;
+  }
+  .paragraph
+  {
+      padding: 10px 50px;
+  }
+  .heading2
+  {
+      font-weight: bold;
+      font-size: 25px;
+      padding: 10px 10px;
+  }
+  .paragraph2
+  {
+    font-size: 22px;
+    padding: 10px 10px;
+  }
+
+    @media (min-width: 762px) and (max-width:992px)
+  {
+    .spacing
+    {
+        padding: 20px 5%;
+    }
+    .spacing2
+    {
+        padding: 20px 5%;
+    }
+    
+  }
